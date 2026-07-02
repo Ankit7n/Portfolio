@@ -1,4 +1,5 @@
 import ecommerce from "../assets/images/ecommerce.png";
+import portfolio from "../assets/images/portfolio.png";
 
 const projects = [
   {
@@ -24,10 +25,10 @@ const projects = [
     title: "Portfolio Website",
     description:
       "Modern developer portfolio built with React and Tailwind CSS featuring responsive design, animations, and reusable components.",
-    image: "/projects/portfolio.png",
+    image: portfolio,
     technologies: ["React", "Tailwind", "Vite"],
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://yourportfolio.vercel.app",
+    github: "https://github.com/Ankit7n/Portfolio",
+    live: "https://portfolio-ankitdev7n.vercel.app",
   },
 
   // {
