@@ -119,7 +119,7 @@ const Navbar = () => {
 
           <div className="p-6">
             <a
-              href="/resume.pdf"
+              href="https://flowcv.com/resume/9ob8u2jnjvbw"
               target="_blank"
               className="block text-center bg-cyan-400 text-black py-3 rounded-lg font-semibold"
             >
