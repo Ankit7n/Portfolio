@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0b1326;
+  color: #dae2fd;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.glass-card {
+  background: rgba(23, 31, 51, 0.4);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(76, 215, 246, 0.1);
+  transition: 0.3s;
+}
+
+.glass-card:hover {
+  border-color: #4cd7f6;
+  transform: translateY(-4px);
+}
+
+.neon-glow-hover:hover {
+  box-shadow: 0 0 20px rgba(76, 215, 246, 0.4);
+}
+
+.skill-chip {
+  background: rgba(11, 19, 38, 0.8);
+  border: 1px solid rgba(78, 222, 163, 0.2);
+  transition: 0.3s;
+}
+
+.skill-chip:hover {
+  border-color: #4edea3;
+}
+
+.status-dot {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.6;
+    transform: scale(1.2);
+  }
+}
