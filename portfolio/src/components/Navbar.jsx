@@ -82,7 +82,7 @@ const Navbar = () => {
           ))}
 
           <a
-            href="/resume.pdf"
+            href="https://flowcv.com/resume/9ob8u2jnjvbw"
             target="_blank"
             className="bg-cyan-400 text-black px-5 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition"
           >
